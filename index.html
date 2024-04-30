@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Digital Recipe Book</h1>
+    </header>
+    <main>
+        <section id="recipes">
+            <article id="recipe1">
+                <h2>Chocolate Chip Cookies</h2>
+                <div id="recipe-details1">
+                    <p>Recipe for the cookies: blah blah blah</p>
+                </div>
+                <ul id="ingredients1" style="display:none;">
+                    <li>2 1/4 cups all-purpose flour</li>
+                    <li>1/2 teaspoon baking soda</li>
+                    <li>1 cup unsalted butter, room temperature</li>
+                    <li>1/2 cup granulated sugar</li>
+                    <li>1 cup packed light-brown sugar</li>
+                    <li>1 teaspoon salt</li>
+                    <li>2 teaspoons pure vanilla extract</li>
+                    <li>2 large eggs</li>
+                    <li>2 cups semisweet and/or milk chocolate chips</li>
+                </ul>
+                <button onclick="toggleContent('recipe1')">Show Ingredients</button>
+            </article>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
